@@ -119,10 +119,12 @@ ul li {
 .header-list__item {
     text-align: center;
     padding: 41px 0;
-    position: relative;
     cursor: pointer;
+    position: relative;
 }
-
+/*.header-list__item:hover {*/
+/*    border-bottom: 3px solid #BABBC5;*/
+/*}*/
 .header-list__item:not(:first-child) {
     margin-left: 64px;
 }
@@ -159,6 +161,9 @@ ul li {
         font-size: 12px;
         line-height: 14px;
     }
+    /*.header-list__item {*/
+    /*    padding: 42px 25px;*/
+    /*}*/
 }
 
 .header-list__item:hover.header-list__item:after {
@@ -167,7 +172,7 @@ ul li {
     content: "";
     background: #babbc5;
     position: absolute;
-    top: 99%;
+    top: 100%;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
