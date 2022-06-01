@@ -99,7 +99,7 @@ ul li {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 804px) {
     .header-left__logo {
         width: 170px;
         height: 80px;
@@ -127,27 +127,19 @@ ul li {
 
 .header-list__item {
     text-align: center;
-    padding: 41px 0;
+    padding: 39.5px 33px;
     position: relative;
 }
 
-.header-list__item:not(:first-child) {
-    margin-left: 64px;
+.header-list__item:hover {
+    border-bottom: 3px solid #BABBC5;
 }
 
 @media (max-width: 1024px) {
-    .header-list__item:not(:first-child) {
-        margin-left: 47px;
-    }
-}
-
-.header-list__item:last-child {
-    margin-right: 30px;
-}
-
-@media (max-width: 1024px) {
-    .header-list__item:last-child {
-        margin-right: 20px;
+    .header-list__item {
+        text-align: center;
+        padding: 39.5px 25px;
+        position: relative;
     }
 }
 
@@ -169,23 +161,9 @@ ul li {
     }
 }
 
-.header-list__item:hover.header-list__item:after {
-    width: 134px;
-    height: 3px;
-    content: "";
-    background: #babbc5;
-    position: absolute;
-    top: 99%;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-}
 
-@media (max-width: 1024px) {
-    .header-list__item:hover.header-list__item:after {
-        width: 119px;
-    }
-}
+
+
 
 .main {
     padding-top: 130px;
@@ -336,9 +314,11 @@ ul li {
 }
 
 .main__btn:hover {
-    color: #ff4343;
-    background: #fff;
-    border: 1px solid #c4c4c4;
+    background: #E71414;
+}
+.main__btn:active {
+    background: #FF4343;
+    box-shadow: 4px 4px 30px #FF4343;
 }
 
 .header__burger {
@@ -536,6 +516,7 @@ ul li {
     border-right: 1px solid #fff;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {
@@ -547,14 +528,13 @@ ul li {
 @media (max-width: 768px) {
     .work-item {
         width: 50%;
+        object-fit: cover;
     }
 }
 
 .work-item__img {
     z-index: 1;
     width: 100%;
-    object-fit: none;
-    height: 340px;
     display: block;
 }
 
@@ -905,7 +885,7 @@ ul li {
 }
 
 .testimonials-left img {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
@@ -947,6 +927,7 @@ ul li {
     text-transform: capitalize;
     color: #fff;
     padding: 17px 0;
+    max-width: 471px;
     font-family: Cardo;
     font-size: 36px;
     font-style: italic;
@@ -954,7 +935,7 @@ ul li {
     line-height: 49px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1105px) {
     .testimonials-right__text p {
         padding: 14px 0;
         font-size: 24px;
@@ -1176,11 +1157,12 @@ ul li {
         width: 100%;
     }
 }
-
 .download__btn:hover {
-    color: #ff4343;
-    background: #fff;
-    border: 1px solid #c4c4c4;
+    background: #E71414;
+}
+.download__btn:active {
+    background: #FF4343;
+    box-shadow: 4px 4px 30px #FF4343;
 }
 
 .footer-top {
@@ -1402,7 +1384,7 @@ ul li {
     }
 }
 
-.footer-bottom__text span {
+.footer-bottom__text a {
     color: #fff;
 }
 
