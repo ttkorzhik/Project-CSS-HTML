@@ -100,7 +100,7 @@ ul li {
 
 @media (max-width: 768px) {
     .header-left__logo {
-        width: 59%;
+        width: 56%;
         height: 70%;
     }
 }
@@ -123,25 +123,6 @@ ul li {
     position: relative;
 }
 
-/*.header-list__item:not(:first-child) {*/
-/*    margin-left: 64px;*/
-/*}*/
-
-/*@media (max-width: 1024px) {*/
-/*    .header-list__item:not(:first-child) {*/
-/*        margin-left: 47px;*/
-/*    }*/
-/*}*/
-
-/*.header-list__item:last-child {*/
-/*    margin-right: 30px;*/
-/*}*/
-
-/*@media (max-width: 1024px) {*/
-/*    .header-list__item:last-child {*/
-/*        margin-right: 20px;*/
-/*    }*/
-/*}*/
 
 .header-list__item__link {
     text-align: center;
@@ -281,7 +262,7 @@ ul li {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    width: 31.54%;
+    width: 369px;
     background: #ff4343;
     margin: 0 auto;
     padding: 24.58px 0 25px;
@@ -300,7 +281,7 @@ ul li {
         text-align: center;
         text-transform: uppercase;
         color: #fff;
-        width: 31.84%;
+        width: 314px;;
         background: #ff4343;
         margin: 0 auto;
         padding: 25px 0 24.58px;
@@ -320,7 +301,6 @@ ul li {
         text-align: center;
         text-transform: uppercase;
         color: #fff;
-        width: 31.84%;
         width: 279.24px;
         background: #ff4343;
         margin: 0 auto;
@@ -1155,7 +1135,7 @@ ul li {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    width: 31.54%;
+    width: 369px;
     background: #ff4343;
     margin: 0 auto;
     padding: 24.58px 0 25px;
@@ -1174,7 +1154,7 @@ ul li {
         text-align: center;
         text-transform: uppercase;
         color: #fff;
-        width: 31.84%;
+        width: 314px;
         background: #ff4343;
         margin: 0 auto;
         padding: 28.58px 0 28px;
@@ -1194,7 +1174,6 @@ ul li {
         text-align: center;
         text-transform: uppercase;
         color: #fff;
-        width: 31.84%;
         width: 278.25px;
         background: #ff4343;
         margin: 0 auto;
